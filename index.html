@@ -1,11 +1,92 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Potenciometro - MicroPython</title>
+	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-  
+	<header>
+		<h1>Uso del Potenciometro - Micro-Python</h1>
+		<nav>
+			<ul>
+				<li><a href="#diagrama">Diagrama</a></li>
+				<li><a href="#potencimetro">Potenciometro</a></li>
+				<li><a href="#micro">Micro-Python</a></li>
+				<li><a href="#demo">Demo en Wokwi</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="diagrama">
+			<h2>Diagrama</h2>
+			<p>Para el uso del Potenciometro, es necesario conocer el uso correcto las conexiones en nuestra Raspberry Pi Pico. A continuación, se muestra un diagrama para las conexiones:</p>
+			<img src="img/pinout.jpg" width="680" height="500">
+            <p>Como podemos apreciar, losm <b>PIN 40</b>, <b>PIN 38</b> y <b>PIN 31</b> son los que necesitaremos para la implementación de nuestro Potenciometro.</p>
+		</section>
+
+		<section id="potencimetro">
+			<h2>Potenciometro</h2>
+            <img id="img2" src="img/potentiometer.jpg">
+            <p id="text">El potenciómetro sirve para limitar el flujo de corriente eléctrica de manera variable. Provocando una caída de tensión en relación a la resistividad. Básicamente es una resistencia variable. </p>
+            <div class="tabla">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Descripción</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>GND</td>
+                      <td>Tierra</td>
+                    </tr>
+                    <tr>
+                      <td>SIG</td>
+                      <td>Salida, se conecta un pin análogo de salida</td>
+                    </tr>
+                    <tr>
+                      <td>VCC</td>
+                      <td>Voltaje</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>              
+		</section>
+
+		<section id="micro">
+			<h2 id="fixh">Micro-Python</h2>
+            <p>Para el uso del Potenciometro en Micro-Python, se implemento las siguientes lineas de códigos:</p>
+            <pre>
+                <code>
+                    import utime
+                    from machine import Pin
+
+                    potentiometer = machine.ADC(26) # Aquí podemos usar el GP26 o 31
+                    conversion_factor = 3.3 / (65535) #Voltaje de 3.3
+
+                    while True:
+                        voltage = potentiometer.read_u16() * conversion_factor # Convertidor de 0 - 3.3 volts
+                        print(voltage) # Imprime el valor del voltaje tomado
+                        utime.sleep(1) # Acción para actualizar en consola
+                </code>
+            </pre>
+		</section>
+
+        <section id="demo">
+            <h2>Demo en Wokwi</h2>
+            <p>El enlace al Demo de Wokwi se encuentra <a href="https://wokwi.com/projects/359970036322283521">aquí</a>.</p> 
+            <p>A continuación, la imágen del proyecto creado en Wokwi que podemos presentar de la siguiente forma:</p>
+            <img src="img/wokwi.png" alt="">
+        </section>
+	</main>
+
+	<footer>
+		<p>Campos Guillen Eduardo #20210550</p>
+	</footer>
 </body>
 </html>
