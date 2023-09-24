@@ -1,71 +1,38 @@
-header{
-    background: #621d9d;
+ul {
+  list-style-type: none;
 }
-/* =============================================================================
-   My CSS
-   ========================================================================== */
 
-/* ---- base ---- */
-/*
-body {
-  margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
-}
-*/
-canvas {
-  display: block;
-  vertical-align: bottom;
-} /* ---- particles.js container ---- */
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #342a2a; 
-  background-repeat: no-repeat;
-  background-size: 10%;
-  background-position: 50% 50%;
-} /* ---- stats.js ---- */
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
+/* nav bar styles */
+nav {
+  position: sticky;
+  top: 0;
   left: 0;
-  width: 80px;
-  color: #13e8e9;
-  font-size: 0.8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: #fcfcfc;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
-.js-count-particles {
-  font-size: 1.1em;
-}
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-.count-particles {
-  border-radius: 0 0 3px 3px;
+nav h1 {
+  color: gray;
 }
 
-
-/*  background-color: #b61924;*/
-    
-  /*color de fondo       
-  background: #8E2DE2; 
-    
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+nav a {
+  color: #4756df;
+  transition: 0.3s;
 }
-*/ 
+nav a:hover {
+  color: #ff7235;
+  border-bottom: 2px solid #ff7235;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li {
+  font-weight: 700;
+}
