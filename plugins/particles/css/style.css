@@ -44,7 +44,7 @@ body {
 /* nav bar styles */
 nav {
   position: sticky;
-  top: 10;
+  top: 0;
   left: 0;
   z-index: 1;
   display: flex;
@@ -59,8 +59,8 @@ nav h1 {
 }
 
 nav a {
-  color: #4756df;
-  transition: 0.3s;
+  color: purple;
+  transition: var(--transition);
 }
 nav a:hover {
   color: black;
@@ -73,7 +73,7 @@ nav ul {
 }
 
 nav ul li {
-  font-weight: 700;
+  font-weight: var(--bold-font);
 }
 
 .menu-display {
