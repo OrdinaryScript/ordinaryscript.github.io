@@ -1,11 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables generales */
+:root {
+  /* Font */
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  /* Custom */
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 ul {
   list-style-type: none;
+}
+
+/* a {
+  text-decoration: none;
+  color: gray;
+} */
+
+/* a:before {
+  color: #ff7235;
+} */
+
+body {
+  font-family: var(--font-family);
 }
 
 /* nav bar styles */
 nav {
   position: sticky;
-  top: 0;
+  top: 10;
   left: 0;
   z-index: 1;
   display: flex;
@@ -24,8 +63,8 @@ nav a {
   transition: 0.3s;
 }
 nav a:hover {
-  color: #ff7235;
-  border-bottom: 2px solid #ff7235;
+  color: black;
+  border-bottom: 2px solid gray;
 }
 
 nav ul {
@@ -35,4 +74,13 @@ nav ul {
 
 nav ul li {
   font-weight: 700;
+}
+
+.menu-display {
+  color: gray ;
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
 }
