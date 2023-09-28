@@ -1,0 +1,14 @@
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\bin\Debug\net7.0\ordinaryscript.github.io.exe
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\bin\Debug\net7.0\ordinaryscript.github.io.deps.json
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\bin\Debug\net7.0\ordinaryscript.github.io.runtimeconfig.json
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\bin\Debug\net7.0\ordinaryscript.github.io.dll
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\bin\Debug\net7.0\ordinaryscript.github.io.pdb
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\obj\Debug\net7.0\ordinaryscript.github.io.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\obj\Debug\net7.0\ordinaryscript.github.io.AssemblyInfoInputs.cache
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\obj\Debug\net7.0\ordinaryscript.github.io.AssemblyInfo.cs
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\obj\Debug\net7.0\ordinaryscript.github.io.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\obj\Debug\net7.0\ordinaryscript.github.io.dll
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\obj\Debug\net7.0\refint\ordinaryscript.github.io.dll
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\obj\Debug\net7.0\ordinaryscript.github.io.pdb
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\obj\Debug\net7.0\ordinaryscript.github.io.genruntimeconfig.cache
+C:\Users\Edu\Documents\GitHub\ordinaryscript.github.io\obj\Debug\net7.0\ref\ordinaryscript.github.io.dll
