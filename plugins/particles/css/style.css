@@ -47,15 +47,17 @@ body {
 
 /* nav bar styles */
 nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
   display: flex;
   align-items: center;
+  width: 100%;
   justify-content: space-between;
-  padding: 1.5rem 3.5rem;
+  padding: 1rem 3rem;
   background-color: #fcfcfc;
+  
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav h1 {
@@ -79,6 +81,7 @@ nav ul {
 nav ul li {
   font-weight: var(--bold-font);
 }
+
 
 .menu-display {
   color: gray ;
@@ -136,19 +139,36 @@ nav ul li {
 }
 
 .skill {
-  margin-top: var(--margin-top);
+  
+  max-width: 68.75rem;
+  margin: auto;
   text-align: center;
+  margin-top: var(--margin-top);
 }
 
 .skill h2 {
   margin-bottom: var(--bottom-margin);
 }
-.icons {
+
+.icons-container {
+  align-items: center;
+  padding: 1.25rem;
+  width:30%;
+  height:45%;
+}
+
+.icons-container div img {
+  object-fit: contain;
+  width:30px;
+  height:100%;
+}
+.icons img {
   margin-top: 2.6rem;
   margin-bottom: 2.6rem;
-  /* border: solid; */
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow-container);
+  animation: zoomInDown;
+  animation-duration: 2s;
 }
-.anime-icons {
-  animation: animate__zoomInDown;
-  animation-duration: 3s;
-}
+
