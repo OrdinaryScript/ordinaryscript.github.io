@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\ordinaryscript.github.io.csproj": {}
+    "c:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\ordinaryscript.github.io.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\ordinaryscript.github.io.csproj": {
+    "c:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\ordinaryscript.github.io.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\ordinaryscript.github.io.csproj",
+        "projectUniqueName": "c:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\ordinaryscript.github.io.csproj",
         "projectName": "ordinaryscript.github.io",
-        "projectPath": "C:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\ordinaryscript.github.io.csproj",
+        "projectPath": "c:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\ordinaryscript.github.io.csproj",
         "packagesPath": "C:\\Users\\Edu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\obj\\",
+        "outputPath": "c:\\Users\\Edu\\Documents\\GitHub\\ordinaryscript.github.io\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Edu\\AppData\\Roaming\\NuGet\\NuGet.Config",
