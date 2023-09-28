@@ -18,9 +18,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Debug mode, delete the border-style: solid; */
 * {
   margin: 0;
   padding: 0;
+  /* border-style: solid; */
   box-sizing: border-box;
 }
 
@@ -88,28 +90,45 @@ nav ul li {
 /* Custom avatar properties */
 
 .fixed-margin {
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-bottom: 250px ;
 }
 
 .custom-avatar {
   margin-bottom: 80px;
-  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3); */
-  /* height: 17.5rem; */
 }
 
-.about {
+.principal {
   width: 25rem;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
-.about h2 {
+.principal h2 {
   margin-bottom: 8px;
-  animation: bounce 2s;
+  animation: bounce;
+  animation-duration: 2s;
+  text-align: justify;
 }
 
-.about p {
+.principal p {
   line-height: normal;
-  padding: 1rem 0;
+  padding: 1rem 0rem;
+  text-align: justify;
+}
+
+.aboutme {
+  background-color: rgb(231, 231, 231);
+  padding: 2rem 8rem;
+}
+
+.aboutme h2 {
+  margin-bottom: 0.6em;
+  text-align: center;
+}
+
+.aboutme p {
+  line-height: 3em;
+  padding: 0.4rem;
 }
