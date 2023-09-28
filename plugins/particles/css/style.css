@@ -24,7 +24,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  /* border-style: solid; */
+  border-style: solid;
   box-sizing: border-box;
 }
 
@@ -47,7 +47,7 @@ body {
 
 /* nav bar styles */
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 1;
@@ -139,30 +139,32 @@ nav ul li {
 }
 
 .skill {
-  
   max-width: 68.75rem;
   margin: auto;
   text-align: center;
   margin-top: var(--margin-top);
 }
-
 .skill h2 {
+
   margin-bottom: var(--bottom-margin);
 }
 
-.icons-container {
-  align-items: center;
+ .icons-container {
+  /* align-items: center; */
+  display: inline;
   padding: 1.25rem;
-  width:30%;
-  height:45%;
+  width: 30%;
+  height: 45%;
 }
 
 .icons-container div img {
+  margin-top: 1rem;
+  margin-bottom: var(--bottom-margin-2);
   object-fit: contain;
-  width:30px;
-  height:100%;
+  width: 30px;
+  height: 100%;
 }
-.icons img {
+/* .icons img {
   margin-top: 2.6rem;
   margin-bottom: 2.6rem;
   background-color: #fff;
@@ -170,5 +172,5 @@ nav ul li {
   box-shadow: var(--box-shadow-container);
   animation: zoomInDown;
   animation-duration: 2s;
-}
+}  */
 
