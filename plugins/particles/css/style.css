@@ -8,7 +8,8 @@
   --bold-font: 700;
   --bolder-font: 900;
   /* Custom */
-  --bottom-margin: 0.5rem;
+  --margin-top: 80px;
+  --bottom-margin: 0.6rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
@@ -124,11 +125,29 @@ nav ul li {
 }
 
 .aboutme h2 {
-  margin-bottom: 0.6em;
+  margin-bottom: var(--bottom-margin);
   text-align: center;
 }
 
 .aboutme p {
   line-height: 3em;
   padding: 0.4rem;
+}
+
+.skill {
+  margin-top: var(--margin-top);
+  text-align: center;
+}
+
+.skill h2 {
+  margin-bottom: var(--bottom-margin);
+}
+.icons {
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+  /* border: solid; */
+}
+.anime-icons {
+  animation: animate__zoomInDown;
+  animation-duration: 3s;
 }
