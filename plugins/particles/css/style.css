@@ -24,7 +24,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  border-style: solid;
+  /* border-style: solid; */
   box-sizing: border-box;
 }
 
@@ -57,7 +57,6 @@ nav {
   justify-content: space-between;
   padding: 1rem 3rem;
   background-color: #fcfcfc;
-  
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav h1 {
@@ -112,6 +111,7 @@ nav ul li {
 }
 
 .main-container h2 {
+  font-weight: var(--bold-font);
   margin-bottom: 8px;
   animation: bounce;
   animation-duration: 2s;
@@ -129,6 +129,7 @@ nav ul li {
 }
 
 .aboutme h2 {
+  font-weight: var(--bold-font);
   margin-bottom: var(--bottom-margin);
   text-align: center;
 }
@@ -145,13 +146,14 @@ nav ul li {
   margin-top: var(--margin-top);
 }
 .skill h2 {
-
+  font-weight: var(--bold-font);
   margin-bottom: var(--bottom-margin);
 }
 
  .icons-container {
   /* align-items: center; */
-  display: inline;
+  display: flex;
+  margin: 0 auto;
   padding: 1.25rem;
   width: 30%;
   height: 45%;
@@ -164,7 +166,7 @@ nav ul li {
   width: 30px;
   height: 100%;
 }
-/* .icons img {
+.icons img {
   margin-top: 2.6rem;
   margin-bottom: 2.6rem;
   background-color: #fff;
@@ -172,5 +174,5 @@ nav ul li {
   box-shadow: var(--box-shadow-container);
   animation: zoomInDown;
   animation-duration: 2s;
-}  */
+} 
 
