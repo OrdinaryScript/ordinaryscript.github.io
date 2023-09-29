@@ -8,6 +8,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   /* Custom */
+  --custom-botton-margin: 80px;
   --margin-top: 80px;
   --bottom-margin: 0.6rem;
   --bottom-margin-2: 1rem;
@@ -99,7 +100,7 @@ nav ul li {
 }
 
 .custom-avatar {
-  margin-bottom: 80px;
+  margin-bottom: var(--custom-botton-margin);
 }
 
 .main-container {
@@ -142,6 +143,7 @@ nav ul li {
 .skill {
   max-width: 68.75rem;
   margin: auto;
+  margin-bottom: var(--custom-botton-margin);
   text-align: center;
   margin-top: var(--margin-top);
 }
@@ -155,8 +157,8 @@ nav ul li {
   display: flex;
   margin: 0 auto;
   padding: 1.25rem;
-  width: 30%;
-  height: 45%;
+  width: 45%;
+  height: 75%;
 }
 
 .icons-container div img {
@@ -166,13 +168,21 @@ nav ul li {
   width: 30px;
   height: 100%;
 }
-.icons img {
-  margin-top: 2.6rem;
-  margin-bottom: 2.6rem;
-  background-color: #fff;
-  border-radius: 20px;
-  box-shadow: var(--box-shadow-container);
+.icons {
+  margin: 0 auto;
   animation: zoomInDown;
   animation-duration: 2s;
 } 
 
+.icons img {
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+  background-color: #ffffff1a;
+  /* border-radius: 20px;
+  box-shadow: var(--box-shadow-container); */
+  animation: zoomInDown;
+  animation-duration: 2s;
+} 
+.footer{
+  color: gray;
+}
