@@ -112,7 +112,7 @@ nav ul li {
 }
 
 .main-container h2 {
-  font-weight: var(--bold-font);
+font-weight: var(--bold-font);
   margin-bottom: 8px;
   animation: bounce;
   animation-duration: 2s;
@@ -157,7 +157,7 @@ nav ul li {
   display: flex;
   margin: 0 auto;
   padding: 1.25rem;
-  width: 45%;
+  width: 95%;
   height: 75%;
 }
 
@@ -165,7 +165,7 @@ nav ul li {
   margin-top: 1rem;
   margin-bottom: var(--bottom-margin-2);
   object-fit: contain;
-  width: 30px;
+  width: 100px;
   height: 100%;
 }
 .icons {
