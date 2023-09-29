@@ -165,7 +165,7 @@ nav ul li {
   margin-top: 1rem;
   margin-bottom: var(--bottom-margin-2);
   object-fit: contain;
-  width: 30px;
+  width: 100px;
   height: 100%;
 }
 .icons {
