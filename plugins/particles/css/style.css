@@ -8,6 +8,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   /* Custom */
+  --custom-botton-margin: 80px;
   --margin-top: 80px;
   --bottom-margin: 0.6rem;
   --bottom-margin-2: 1rem;
@@ -47,7 +48,7 @@ body {
 
 /* nav bar styles */
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 1;
@@ -57,7 +58,6 @@ nav {
   justify-content: space-between;
   padding: 1rem 3rem;
   background-color: #fcfcfc;
-  
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav h1 {
@@ -100,7 +100,7 @@ nav ul li {
 }
 
 .custom-avatar {
-  margin-bottom: 80px;
+  margin-bottom: var(--custom-botton-margin);
 }
 
 .main-container {
@@ -112,6 +112,7 @@ nav ul li {
 }
 
 .main-container h2 {
+font-weight: var(--bold-font);
   margin-bottom: 8px;
   animation: bounce;
   animation-duration: 2s;
@@ -129,6 +130,7 @@ nav ul li {
 }
 
 .aboutme h2 {
+  font-weight: var(--bold-font);
   margin-bottom: var(--bottom-margin);
   text-align: center;
 }
@@ -139,36 +141,48 @@ nav ul li {
 }
 
 .skill {
-  
   max-width: 68.75rem;
   margin: auto;
+  margin-bottom: var(--custom-botton-margin);
   text-align: center;
   margin-top: var(--margin-top);
 }
-
 .skill h2 {
+  font-weight: var(--bold-font);
   margin-bottom: var(--bottom-margin);
 }
 
-.icons-container {
-  align-items: center;
+ .icons-container {
+  /* align-items: center; */
+  display: flex;
+  margin: 0 auto;
   padding: 1.25rem;
-  width:30%;
-  height:45%;
+  width: 95%;
+  height: 75%;
 }
 
 .icons-container div img {
+  margin-top: 1rem;
+  margin-bottom: var(--bottom-margin-2);
   object-fit: contain;
-  width:30px;
-  height:100%;
+  width: 100px;
+  height: 100%;
 }
+.icons {
+  margin: 0 auto;
+  animation: zoomInDown;
+  animation-duration: 2s;
+} 
+
 .icons img {
   margin-top: 2.6rem;
   margin-bottom: 2.6rem;
-  background-color: #fff;
-  border-radius: 20px;
-  box-shadow: var(--box-shadow-container);
+  background-color: #ffffff1a;
+  /* border-radius: 20px;
+  box-shadow: var(--box-shadow-container); */
   animation: zoomInDown;
   animation-duration: 2s;
+} 
+.footer{
+  color: gray;
 }
-
