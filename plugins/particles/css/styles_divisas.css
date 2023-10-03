@@ -1,0 +1,14 @@
+iframe {
+    border: 1px solid black;
+    width: 100%; /* takes precedence over the width set with the HTML width attribute */
+    min-height:260px
+  }
+
+.aiframe{
+    font-family:Roboto,sans-serif;
+    font-size:16px;
+    color:#30009c;
+    float:left;
+    margin-top:8px;
+}
+  
