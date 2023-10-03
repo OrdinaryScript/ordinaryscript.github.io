@@ -5,7 +5,11 @@ iframe {
     min-height: 260px;
     margin: 0 auto;
   }
-
+  .ajust {
+    width: 25rem;
+    padding: 2rem;
+    display: box;
+}
 .aiframe{
     font-family:Roboto,sans-serif;
     font-size:16px;
@@ -13,10 +17,6 @@ iframe {
     float: flex;
     margin-top:8px;
 }
-.ajust {
-    width: 25rem;
-    padding: 2rem;
-    display: flexbox;
-}
+
 
   
