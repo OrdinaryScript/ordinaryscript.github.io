@@ -1,0 +1,35 @@
+/* nav bar styles */
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: #fcfcfc;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav h1 {
+    color: gray;
+  }
+  
+  nav a {
+    color: purple;
+    transition: var(--transition);
+  }
+  nav a:hover {
+    color: black;
+    border-bottom: 2px solid gray;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  nav ul li {
+    font-weight: var(--bold-font);
+  }

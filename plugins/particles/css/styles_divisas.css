@@ -1,14 +1,22 @@
 iframe {
-    border: 1px solid black;
-    width: 100%; /* takes precedence over the width set with the HTML width attribute */
-    min-height:260px
+    border-style: groove;
+    border-radius: 8px;
+    width: 100%;
+    min-height: 260px;
+    margin: 0 auto;
   }
 
 .aiframe{
     font-family:Roboto,sans-serif;
     font-size:16px;
     color:#30009c;
-    float:left;
+    float: flex;
     margin-top:8px;
 }
+.ajust {
+    width: 25rem;
+    padding: 2rem;
+    display: flexbox;
+}
+
   
