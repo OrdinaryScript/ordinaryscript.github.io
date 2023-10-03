@@ -1,3 +1,18 @@
+body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aiframe{
+  font-family:Roboto,sans-serif;
+  font-size:16px;
+  color:#30009c;
+  margin-top:8px;
+}
+.ajust {
+  width: 25rem;
+  padding: 2rem;
+}
 iframe {
     border-style: groove;
     border-radius: 8px;
@@ -5,18 +20,7 @@ iframe {
     min-height: 260px;
     margin: 0 auto;
   }
-  .ajust {
-    width: 25rem;
-    padding: 2rem;
-    display: box;
-}
-.aiframe{
-    font-family:Roboto,sans-serif;
-    font-size:16px;
-    color:#30009c;
-    float: flex;
-    margin-top:8px;
-}
+
 
 
   
